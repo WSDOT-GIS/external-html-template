@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lorem ipsum</title>
     <link rel="icon" href="https://wsdot.wa.gov/sites/default/files/dot.ico" type="image/vnd.microsoft.icon">
-    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.dark.min.css"> -->
-    <!-- <link rel="stylesheet" media="all" href="https://wsdot.wa.gov/libraries/fontawesome/css/all.min.css?qs4gn7"> -->
-    <!-- <link rel="stylesheet" media="all" href="https://wsdot.wa.gov/libraries/fontawesome/css/v4-shims.min.css?qs4gn7"> -->
-    <!-- <link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&amp;display=swap"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.sidr/2.2.1/stylesheets/jquery.sidr.dark.min.css">
+    <link rel="stylesheet" media="all" href="https://wsdot.wa.gov/libraries/fontawesome/css/all.min.css?qs4gn7">
+    <link rel="stylesheet" media="all" href="https://wsdot.wa.gov/libraries/fontawesome/css/v4-shims.min.css?qs4gn7">
+    <link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&amp;display=swap">
     <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.css">
     <link rel="stylesheet" media="screen" href="https://wsdot.wa.gov/modules/contrib/responsive_tables_filter/css/tablesaw-responsive.css">
     <link rel="stylesheet" media="all" href="https://wsdot.wa.gov/modules/contrib/responsive_tables_filter/css/tablesaw-base.css">
@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/sidr.css">
     <link rel="stylesheet" media="all" href="https://wsdot.wa.gov/modules/custom/wsdot_external_search_forms/assets/css/wsdot_external_search_forms.css">
+    <script type="module" src="default.js"></script>
 </head>
 
 <body class="page-node-type-page">
@@ -49,7 +50,8 @@
             </div>
         </div>
  
-        <header id="header">
+        <wsdot-header is="header" id="header"></wsdot-header>
+        <!-- <header id="header">
             <div class="header-wrapper">
                 <div class="logo-container">
                     <div class="region region-header">
@@ -68,7 +70,7 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </header> -->
         <div class="nav-outer-wrapper">
             <div class="navbar navbar-default container" id="navbar" role="nav">
                 <div class="nav-tabs break-lg-control" aria-hidden="false">
@@ -333,7 +335,7 @@
     </div>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="//cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
     <script>
         $(document).ready(function() {
             $('#main-menu').sidr({
