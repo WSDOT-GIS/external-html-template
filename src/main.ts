@@ -1,3 +1,10 @@
+import "@fontsource/lato";
+import "bootstrap/dist/css/bootstrap.css";
+import "@unicorn-fail/drupal-bootstrap-styles/dist/3.4.0/8.x-3.x/drupal-bootstrap.css";
+import "sidr/dist/stylesheets/jquery.sidr.light.css";
+import "./css/main.css";
+import "./css/sidr.css";
+
 function setupStuff(this: Document): void {
   for (const element of document.body.querySelectorAll(
     ".btn-close,.navbar-toggle,.overlay"
