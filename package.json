@@ -15,6 +15,8 @@
   },
   "dependencies": {
     "@fontsource/lato": "^5.0.21",
+    "@unicorn-fail/drupal-bootstrap-styles": "^0.0.2",
+    "bootstrap": "^3.4.1",
     "jquery": "^3.6.0",
     "sidr": "^2.2.1"
   }
