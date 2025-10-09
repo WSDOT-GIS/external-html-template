@@ -2,8 +2,13 @@
   "name": "wsdot-external-html-template",
   "version": "1.2.4",
   "description": "This repository contains the necessary HTML, JavaScript and CSS files which produce an example, responsive HTML application template reflective of the pages on WSDOT's external, public facing website.",
-  "main": "index.js",
-  "scripts": {},
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WSDOT/external-html-template.git"
@@ -20,7 +25,11 @@
     "@tsconfig/recommended": "^1.0.10",
     "@types/bun": "latest",
     "@types/jquery": "^3",
-    "typescript": "^5.9.3"
+    "typescript": "~5.9.3",
+    "vite": "npm:rolldown-vite@7.1.14"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.1.14"
   },
   "dependencies": {
     "jquery": "^3",
