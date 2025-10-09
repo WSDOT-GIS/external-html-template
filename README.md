@@ -24,3 +24,10 @@ Your pages should scale from the smaller screens on smartphones to the medium
 tablet sizes to the larger desktop screens.
 
 Do not assume everyone is accessing your content using a desktop computer.
+
+* [jQuery]
+  * [Sidr] ([Source][Sidr source])
+
+[jQuery]:https://jquery.com/
+[Sidr]:https://www.albertovarela.net/sidr/
+[Sidr source]:https://github.com/artberri/sidr
