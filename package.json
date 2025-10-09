@@ -1,0 +1,11 @@
+{
+  "name": "external-html-template",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.2"
+  }
+}
