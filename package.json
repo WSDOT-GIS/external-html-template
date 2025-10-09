@@ -19,6 +19,11 @@
     "@tsconfig/node24": "^24.0.1",
     "@tsconfig/recommended": "^1.0.10",
     "@types/bun": "latest",
+    "@types/jquery": "^3",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "jquery": "^3",
+    "sidr": "^2.2.1"
   }
 }
