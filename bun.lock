@@ -4,12 +4,24 @@
     "": {
       "name": "wsdot-external-html-template",
       "devDependencies": {
+        "@tsconfig/bun": "^1.0.8",
+        "@tsconfig/node-ts": "^23.6.1",
+        "@tsconfig/node24": "^24.0.1",
+        "@tsconfig/recommended": "^1.0.10",
         "@types/bun": "latest",
         "typescript": "^5.9.3",
       },
     },
   },
   "packages": {
+    "@tsconfig/bun": ["@tsconfig/bun@1.0.8", "", {}, "sha512-JlJaRaS4hBTypxtFe8WhnwV8blf0R+3yehLk8XuyxUYNx6VXsKCjACSCvOYEFUiqlhlBWxtYCn/zRlOb8BzBQg=="],
+
+    "@tsconfig/node-ts": ["@tsconfig/node-ts@23.6.1", "", {}, "sha512-1E5cUp+S65pLKKI9VrGMQPWDHxOEq3dAGM2onG3fLeSRwWbylYFwhIjnzJikjSN7w2nCgwxmv8ifvUKDFkK38Q=="],
+
+    "@tsconfig/node24": ["@tsconfig/node24@24.0.1", "", {}, "sha512-3+IXshza3bIrT0tbHBr9CixQDVf4iBf0HTR0hCYowhpLqkzJjswu3UY8aZWjRXZep31kYB+o2SQeD8KwIoUHYw=="],
+
+    "@tsconfig/recommended": ["@tsconfig/recommended@1.0.10", "", {}, "sha512-cGvydvg03lONp5Z9yaplW493Vw9/um7k588mvDkm+VFPF2PZUVPx0uswq4PFpeEySsLbQRETrDRhzh4Dmxaslw=="],
+
     "@types/bun": ["@types/bun@1.2.23", "", { "dependencies": { "bun-types": "1.2.23" } }, "sha512-le8ueOY5b6VKYf19xT3McVbXqLqmxzPXHsQT/q9JHgikJ2X22wyTW3g3ohz2ZMnp7dod6aduIiq8A14Xyimm0A=="],
 
     "@types/node": ["@types/node@24.7.1", "", { "dependencies": { "undici-types": "~7.14.0" } }, "sha512-CmyhGZanP88uuC5GpWU9q+fI61j2SkhO3UGMUdfYRE6Bcy0ccyzn1Rqj9YAB/ZY4kOXmNf0ocah5GtphmLMP6Q=="],

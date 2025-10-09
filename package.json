@@ -14,7 +14,11 @@
   },
   "homepage": "https://github.com/WSDOT/external-html-template#readme",
   "devDependencies": {
-    "typescript": "^5.9.3",
-    "@types/bun": "latest"
+    "@tsconfig/bun": "^1.0.8",
+    "@tsconfig/node-ts": "^23.6.1",
+    "@tsconfig/node24": "^24.0.1",
+    "@tsconfig/recommended": "^1.0.10",
+    "@types/bun": "latest",
+    "typescript": "^5.9.3"
   }
 }
