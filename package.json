@@ -25,6 +25,7 @@
     "@tsconfig/recommended": "^1.0.10",
     "@types/bun": "latest",
     "@types/jquery": "^3",
+    "prettier": "^3.6.2",
     "typescript": "~5.9.3",
     "vite": "npm:rolldown-vite@7.1.14"
   },
