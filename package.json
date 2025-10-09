@@ -27,13 +27,17 @@
     "@types/jquery": "^3",
     "prettier": "^3.6.2",
     "typescript": "~5.9.3",
-    "vite": "npm:rolldown-vite@7.1.14"
+    "vite": "7.1.16"
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.14"
   },
   "dependencies": {
+    "@fontsource/lato": "^5.2.7",
+    "@unicorn-fail/drupal-bootstrap-styles": "0.0.2",
+    "bootstrap": "^3",
     "jquery": "^3",
-    "sidr": "^2.2.1"
+    "sidr": "^2.2.1",
+    "tablesaw": "3.1.2"
   }
 }
