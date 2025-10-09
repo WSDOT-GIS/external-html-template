@@ -1,4 +1,7 @@
 # Custom Dictionary Words
+extlink
+Flickr
 fontfaces
-WSDOT
 sidr
+tablesaw
+WSDOT
