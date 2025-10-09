@@ -1,50 +1,36 @@
+/// <reference types="jquery" />
+
 // @ts-check
-$(function () {
-	$(".btn-close,.navbar-toggle,.overlay").on('click', function (e) {
-		e.stopPropagation();
-		$("body").toggleClass("toggled");
-		$(".main.navbar").toggleClass("active");
-	});
-	$("#edit-submit").on('click', function (e) {
-		e.stopPropagation();
-		if ($("#edit-keys")?.val()?.length) { $("#search-api-page-block-form-search").submit(); return; }
-	});
+
+window.addEventListener("load", () => {
+  for (const element of document.body.querySelectorAll(
+    ".btn-close,.navbar-toggle,.overlay"
+  )) {
+    element.addEventListener("click", function (e) {
+      e.stopPropagation();
+      document.body.classList.toggle("toggled");
+      document.body.querySelector(".main.navbar")?.classList.toggle("active");
+    });
+  }
+
+  document.body
+    .querySelector("#edit-submit")
+    ?.addEventListener("click", (e) => {
+      e.stopPropagation();
+
+      /**
+       * @type {HTMLInputElement|null}
+       */
+      const editKeys = document.body.querySelector("#edit-keys");
+      if (editKeys) {
+        /**
+         * @type {HTMLFormElement|null}
+         */
+        const form = document.body.querySelector(
+          "#search-api-page-block-form-search"
+        );
+        form?.submit();
+        return;
+      }
+    });
 });
-
-// (function ($) {
-// 	'use strict';
-// 	behaviors.filter_toggle = {
-// 		attach: function (context, settings) {
-// 			/*Breakpoint control for certain elements*/
-// 			var width = $(window).width();
-// 			if (width >= 992) {
-// 				$('.break-md-control').attr('aria-hidden', 'true');
-// 				$('.break-lg-control').attr('aria-hidden', 'false');
-// 				$('.break-md-control').css('display', 'none');
-// 				$('.break-lg-control').css('display', 'block');
-// 			}
-// 			if (width < 992) {
-// 				$('.break-md-control').attr('aria-hidden', 'false');
-// 				$('.break-lg-control').attr('aria-hidden', 'true');
-// 				$('.break-md-control').css('display', 'block');
-// 				$('.break-lg-control').css('display', 'none');
-// 			}
-// 			$(window).on('resize', function () {
-// 				var win = $(this);
-// 				if (win.width() >= 992) {
-// 					$('.break-md-control').attr('aria-hidden', 'true');
-// 					$('.break-lg-control').attr('aria-hidden', 'false');
-// 					$('.break-md-control').css('display', 'none');
-// 					$('.break-lg-control').css('display', 'block');
-// 				}
-// 				if (win.width() < 992) {
-// 					$('.break-md-control').attr('aria-hidden', 'false');
-// 					$('.break-lg-control').attr('aria-hidden', 'true');
-// 					$('.break-md-control').css('display', 'block');
-// 					$('.break-lg-control').css('display', 'none');
-// 				}
-// 			});
-
-// 		}
-// 	}
-// })
