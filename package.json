@@ -12,7 +12,7 @@
     "@types/bun": "latest",
     "prettier": "^3.3.2",
     "typescript": "^5.2.2",
-    "vite": "^5.3.1"
+    "vite": "^7.1.9"
   },
   "dependencies": {
     "@fontsource/lato": "^5.0.21",
