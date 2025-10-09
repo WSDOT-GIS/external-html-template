@@ -1,0 +1,19 @@
+{
+  "name": "wsdot-external-html-template",
+  "version": "1.2.4",
+  "description": "This repository contains the necessary HTML, JavaScript and CSS files which produce an example, responsive HTML application template reflective of the pages on WSDOT's external, public facing website.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WSDOT/external-html-template.git"
+  },
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/WSDOT/external-html-template/issues"
+  },
+  "homepage": "https://github.com/WSDOT/external-html-template#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
