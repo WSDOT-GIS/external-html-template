@@ -2,6 +2,9 @@
   "name": "external-html-template",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "build": "tsc && bun build ./src --outdir ./dist"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
